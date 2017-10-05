@@ -50,6 +50,12 @@ canvas.fillColor = Color . black
 canvas.drawEllipse(centreX: 600, centreY: 500, width: 130, height: 100, borderWidth: 10)
 // Make the nose
 canvas.fillColor = Color.black
-canvas.drawEllipse(centreX: 470, centreY: 300, width: 100, height: 80, borderWidth: 10)
+canvas.drawEllipse(centreX: 500, centreY: 380, width: 85, height: 60, borderWidth: 10)
+// Make the small eyes
+canvas.fillColor = Color.white
+canvas.drawEllipse(centreX: 440, centreY: 500, width: 43, height: 30, borderWidth: 10)
+// Make the small eyes
+canvas.fillColor = Color.white
+canvas.drawEllipse(centreX: 560, centreY: 500, width: 43, height: 30, borderWidth: 10)
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
