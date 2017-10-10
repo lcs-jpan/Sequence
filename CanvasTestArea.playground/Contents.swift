@@ -57,5 +57,12 @@ canvas.drawEllipse(centreX: 440, centreY: 500, width: 43, height: 30, borderWidt
 // Make the small eyes
 canvas.fillColor = Color.white
 canvas.drawEllipse(centreX: 560, centreY: 500, width: 43, height: 30, borderWidth: 10)
+// Make the cheek
+canvas.fillColor = Color.red
+canvas.drawEllipse(centreX: 350, centreY: 370, width: 100, height: 65)
+// Make the cheek
+canvas.fillColor = Color.red
+canvas.drawEllipse(centreX: 660, centreY: 370, width: 100, height: 65)
+
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
